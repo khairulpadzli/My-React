@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 const Image = (props) => {
-  let { src, title} = props;
+  let { src, title } = props;
   src = src || "https://www.w3schools.com/html/pic_trulli.jpg";
   title = title || 'CSI Office';
-  
+
   return (
-      <img src={src} alt={title} height="300" />
+    <img src={src} alt={title} height="300" />
   )
 }
 
@@ -24,9 +24,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <Image src="https://www.w3schools.com/html/pic_trulli.jpg" title="CSI Office"/>
-          <Image src="https://www.w3schools.com/html/img_girl.jpg" title="CSI Employee"/>
-          <Image src="https://www.w3schools.com/html/img_chania.jpg" title="CSI Road"/>
+          <Image src="https://www.w3schools.com/html/pic_trulli.jpg" title="CSI Office" />
+          <Image src="https://www.w3schools.com/html/img_girl.jpg" title="CSI Employee" />
+          <Image src="https://www.w3schools.com/html/img_chania.jpg" title="CSI Road" />
         </div>
       </div>
     );
